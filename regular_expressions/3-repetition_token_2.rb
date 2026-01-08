@@ -2,4 +2,4 @@
 
 input = ARGV[0]
 
-puts input.scan(/hb?t{1}n/).join
+puts input.scan(/hbt+n/).join
