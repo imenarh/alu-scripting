@@ -2,4 +2,4 @@
 
 input = ARGV[0]
 
-puts input.scan([0-9]{10}).join
+puts input.scan(/[0-9]{10}/).join
