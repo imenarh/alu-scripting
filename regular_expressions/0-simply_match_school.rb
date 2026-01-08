@@ -4,3 +4,4 @@ input = ARGV[0]
 
 if input =~ /School/
   print "School"
+end
