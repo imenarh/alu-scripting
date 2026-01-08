@@ -2,6 +2,6 @@
 
 input = ARGV[0]
 
-while input =~ /School/
-  print "School"
-end
+result = input.scan(/School/).join
+
+put result
