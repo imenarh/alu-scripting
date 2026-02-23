@@ -12,14 +12,14 @@ def top_ten(subreddit):
     try:
         response = requests.get(url, headers=headers, allow_redirects=False)
         if response.status_code != 200:
-            print("None")  # Only printed when subreddit invalid
+            print("OK")  # Only printed when subreddit invalid
             return
 
         data = response.json()
         children = data.get("data", {}).get("children", [])
 
         if not children:
-            print("OK") 
+            print("OK")
             return
 
         for post in children:
