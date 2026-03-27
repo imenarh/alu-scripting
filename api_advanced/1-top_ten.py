@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Returns the top 10 hot posts for a given subreddit
+""" Returns the top 10 hot posts for a given subreddit"""
 import requests
 
 
